@@ -6,11 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.myapplication.R
 import com.example.myapplication.adaptars.WeatherAdapter
 import com.example.myapplication.adaptars.WeatherModel
 import com.example.myapplication.databinding.FragmentHoursBinding
-import com.example.myapplication.databinding.FragmentMainBinding
 
 
 class HoursFragment : Fragment() {
@@ -36,12 +34,12 @@ class HoursFragment : Fragment() {
         val list = listOf(
             WeatherModel(
                 "Glubokoe", "22:00",
-                "12", "34", "40", "10",
-                "null", "hourse"
+                "12", "40", "10", "null",
+                "null","12"
             ), WeatherModel(
                 "Grodno", "23:00",
-                "12", "23", "45", "12",
-                "null", "hourse"
+                "12", "45", "12", "null",
+                "null","12"
             )
         )
         rcView.adapter = adapter
@@ -49,7 +47,6 @@ class HoursFragment : Fragment() {
     }
 
     companion object {
-        @JvmStatic
         fun newInstance() = HoursFragment()
 
     }

@@ -96,7 +96,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/TVcarrentTemp" />
 
             <TextView
-                android:id="@+id/maxtemp_mintemp"
+                android:id="@+id/tvMaxMin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_8dp"
@@ -118,7 +118,7 @@
                 android:src="@android:drawable/ic_search_category_default"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/maxtemp_mintemp" />
+                app:layout_constraintTop_toBottomOf="@+id/tvMaxMin" />
 
             <ImageButton
                 android:id="@+id/im_sync"

@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.myapplication.R
 
-class DeysFragment : Fragment() {
+class DaysFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -19,10 +19,8 @@ class DeysFragment : Fragment() {
     }
 
     companion object {
-
-        @JvmStatic
         fun newInstance() =
-            DeysFragment()
+            DaysFragment()
     }
 }
 
